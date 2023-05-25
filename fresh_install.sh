@@ -49,5 +49,6 @@ flatpak install flathub org.ghidra_sre.Ghidra -y
 flatpak install flathub io.github.Hexchat -y
 flatpak install flathub io.github.java_decompiler.jd-gui -y
 
-
-
+echo "Setting Up Konsole..."
+cp -r ./konsole/ /home/beached/.local/share/konsole
+chown -R beached:beached /home/beached/.local/share/konsole
