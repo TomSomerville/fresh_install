@@ -21,8 +21,8 @@ echo "\n##########\nRunning apt install vim...\n##########\n"
 apt install vim -y
 
 echo "Setting up VIM..."
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-cp vimrc ~/.vimrc
+curl -fLo /home/beached/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cp vimrc /home/.vimrc
 
 echo "Running apt install python3-pip..."
 apt install python3-pip -y
