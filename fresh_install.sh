@@ -23,8 +23,8 @@ apt install vim -y
 echo "Setting up VIM..."
 curl -fLo /home/beached/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cp vimrc /home/beached/.vimrc
-chmod 755 /home/beached/.vim
-chown -R beached /home/beached/.vimrc /home/beached/.vim
+chmod 755 beached:beached /home/beached/.vim
+chown -R beached:beached /home/beached/.vimrc /home/beached/.vim
 
 
 echo "Running apt install python3-pip..."
