@@ -50,5 +50,5 @@ flatpak install flathub io.github.Hexchat -y
 flatpak install flathub io.github.java_decompiler.jd-gui -y
 
 echo "Setting Up Konsole..."
-cp -r ./konsole/ /home/beached/.local/share/konsole
+cp -r konsole/ /home/beached/.local/share/
 chown -R beached:beached /home/beached/.local/share/konsole
