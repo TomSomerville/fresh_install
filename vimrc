@@ -18,7 +18,6 @@ Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'Shougo/deoplete.nvim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'python-mode/python-mode'
 
 " Make sure you use single quotes
 "  Initialize plugin system
